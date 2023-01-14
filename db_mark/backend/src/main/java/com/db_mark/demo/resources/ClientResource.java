@@ -22,5 +22,5 @@ public class ClientResource {
 	public ResponseEntity<List<ClientDTO>> findAll() {
 		List<ClientDTO> list = service.findAllPage();
 		return ResponseEntity.ok().body(list);
-		}
 	}
+}

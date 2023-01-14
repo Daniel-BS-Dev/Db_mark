@@ -1,0 +1,102 @@
+package com.db_mark.demo.entities;
+
+import java.io.Serializable;
+import java.sql.Date;
+import java.util.Objects;
+
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+import com.db_mark.demo.enums.typeOptionHaircut;
+
+@Entity
+@Table(name = "tb_haircut")
+public class Haircut implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	private Date hour;
+	private typeOptionHaircut option;
+	private Double price;
+	
+	@ManyToOne(fetch = FetchType.EAGER)
+	@JoinColumn(name="hairdresser_id")
+	private StyleHair hairdresser;
+	
+	public Haircut() {
+	}
+
+	public Haircut(Long id, Date hour, typeOptionHaircut option, Double price, StyleHair hairdresser) {
+		this.id = id;
+		this.hour = hour;
+		this.option = option;
+		this.price = price;
+		this.hairdresser = hairdresser;
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Date getHour() {
+		return hour;
+	}
+
+	public void setHour(Date hour) {
+		this.hour = hour;
+	}
+
+	public typeOptionHaircut getOption() {
+		return option;
+	}
+
+	public void setOption(typeOptionHaircut option) {
+		this.option = option;
+	}
+
+	public Double getPrice() {
+		return price;
+	}
+
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+
+	public StyleHair getStyleHair() {
+		return hairdresser;
+	}
+
+	public void setStyleHair(StyleHair hairdresser) {
+		this.hairdresser = hairdresser;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(id);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Haircut other = (Haircut) obj;
+		return Objects.equals(id, other.id);
+	}
+}

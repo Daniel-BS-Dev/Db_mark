@@ -12,7 +12,7 @@ import com.db_mark.demo.dtos.StyleHairDTO;
 import com.db_mark.demo.services.StyleHairService;
 
 @RestController
-@RequestMapping(value = "/styleHair")
+@RequestMapping(value = "/stylehair")
 public class StyleHairResource {
 
 	@Autowired

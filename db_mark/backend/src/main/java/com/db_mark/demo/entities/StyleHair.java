@@ -1,14 +1,22 @@
 package com.db_mark.demo.entities;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
+import javax.persistence.JoinColumn;
 import javax.persistence.Table;
 
 @Entity
@@ -19,16 +27,26 @@ public class StyleHair implements Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
-	@Column(unique = true)
 	private String name_user;
 	private Date dayoff;
 	private Date start_work;
 	private Date finished_work;
 	private Date hour_meal;
-
+	
+	@OneToMany(mappedBy="styleHair")
+	private List<Haircut> haircuts = new ArrayList<>();
+	
 	public StyleHair() {}
 	
+	public StyleHair(Long id, String name_user, Date dayoff, Date start_work, Date finished_work, Date hour_meal) {
+		this.id = id;
+		this.name_user = name_user;
+		this.dayoff = dayoff;
+		this.start_work = start_work;
+		this.finished_work = finished_work;
+		this.hour_meal = hour_meal;
+	}
+
 	public Long getId() {
 		return id;
 	}
@@ -37,12 +55,12 @@ public class StyleHair implements Serializable {
 		this.id = id;
 	}
 
-	public String getNameUser() {
+	public String getName_user() {
 		return name_user;
 	}
 
-	public void setNameUser(String name) {
-		this.name_user = name;
+	public void setName_user(String name_user) {
+		this.name_user = name_user;
 	}
 
 	public Date getDayoff() {
@@ -75,6 +93,10 @@ public class StyleHair implements Serializable {
 
 	public void setHour_meal(Date hour_meal) {
 		this.hour_meal = hour_meal;
+	}
+
+	public List<Haircut> getHaircuts() {
+		return haircuts;
 	}
 
 	@Override

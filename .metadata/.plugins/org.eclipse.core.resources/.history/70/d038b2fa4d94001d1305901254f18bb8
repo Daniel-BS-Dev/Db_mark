@@ -1,0 +1,13 @@
+INSERT INTO tb_styles_hair (name_user, dayoff, start_work, finished_work, hour_meal) VALUES ('Jose', NOW(), NOW(), NOW(), NOW());
+INSERT INTO tb_styles_hair (name_user, dayoff, start_work, finished_work, hour_meal) VALUES ('Paulo', NOW(), NOW(), NOW(), NOW());
+
+INSERT INTO tb_client (name, phone) VALUES ('Benedito', '5555555555555');
+
+INSERT INTO tb_haircut (hour, option, price) VALUES (NOW(), 0, 10.00);
+
+INSERT INTO tb_stylehair_haircut (stylehair_id, haircut_id) VALUES (1,1);
+
+delete tb_stylehair_haircut, tb_styles_hair, tb_haircut
+
+
+

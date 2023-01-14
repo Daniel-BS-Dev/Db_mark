@@ -1,0 +1,44 @@
+package com.db_mark.demo.dtos;
+
+import java.io.Serializable;
+import java.sql.Date;
+import java.util.List;
+
+import com.db_mark.demo.entities.Client;
+import com.db_mark.demo.entities.StyleHair;
+import com.db_mark.demo.enums.typeOptionHaircut;
+
+public class HaircutDTO implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	private Long id;
+	private Date hour;
+	private typeOptionHaircut option;
+	private Double price;
+	private StyleHair styleHair;
+	List<Client> clients;
+	
+	public HaircutDTO(Long id, Date hour, typeOptionHaircut option, Double price, StyleHair styleHair) {
+		this.id = id;
+		this.hour = hour;
+		this.price = price;
+		this.styleHair = styleHair;
+	}
+
+	public HairCutDTO(Hut entity) {
+		id = entity.getId();
+		name = entity.getName();
+		price = entity.getPrice();
+		date = entity.getDate();
+		description = entity.getDescription();
+		imgUrl = entity.getImgUrl();
+
+	}
+
+	public HairCutDTO(Product entity, Set<Category> setCategory) {
+		this(entity);
+		setCategory.forEach(x -> categories.add(new CategoryDTO(x)));
+
+	}
+
+}

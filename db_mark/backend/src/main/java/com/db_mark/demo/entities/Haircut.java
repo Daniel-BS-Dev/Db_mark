@@ -33,12 +33,12 @@ public class Haircut implements Serializable {
 	
 	 @ManyToOne
 	 @JoinColumn(name="user_id")
-	 private StyleHair styleHair;
+	 private Hairdresser styleHair;
 	
 	public Haircut() {
 	}
 
-	public Haircut(Long id, Date hour, typeOptionHaircut option, Double price, StyleHair styleHair) {
+	public Haircut(Long id, Date hour, typeOptionHaircut option, Double price, Hairdresser styleHair) {
 		this.id = id;
 		this.hour = hour;
 		this.option = option;
@@ -77,11 +77,11 @@ public class Haircut implements Serializable {
 		this.price = price;
 	}
 
-	public StyleHair getStyleHair() {
+	public Hairdresser getStyleHair() {
 		return styleHair;
 	}
 
-	public void setStyleHair(StyleHair styleHair) {
+	public void setStyleHair(Hairdresser styleHair) {
 		this.styleHair = styleHair;
 	}
 

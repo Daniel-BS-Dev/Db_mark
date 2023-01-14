@@ -2,12 +2,8 @@ package com.db_mark.demo.dtos;
 
 import java.io.Serializable;
 import java.sql.Date;
-import java.util.ArrayList;
-import java.util.List;
 
-import com.db_mark.demo.entities.Client;
 import com.db_mark.demo.entities.Haircut;
-import com.db_mark.demo.entities.StyleHair;
 import com.db_mark.demo.enums.typeOptionHaircut;
 
 public class HaircutDTO implements Serializable {

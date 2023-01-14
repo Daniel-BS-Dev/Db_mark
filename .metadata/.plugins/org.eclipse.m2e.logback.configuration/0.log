@@ -2334,3 +2334,127 @@ java.net.URISyntaxException: Illegal character in path at index 16: file:/C:/Pro
 2023-01-14 19:03:53,934 [Worker-151: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2023-01-14 19:03:53,937 [Worker-151: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-01-14 19:03:53,937 [Worker-151: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:03:53,937 [Worker-151: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:08:45,420 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:08:45,421 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:08:45,426 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:08:45,677 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:08:45,680 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:08:45,680 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:08:45,680 [Worker-157: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:13:11,637 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:13:11,637 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:13:11,639 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:13:11,678 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:13:11,682 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:13:11,694 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:13:11,694 [Worker-161: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:28:08,697 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:28:08,698 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:28:08,702 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:28:18,396 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:28:18,464 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:28:18,464 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:28:18,465 [Worker-166: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:28:27,222 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:28:27,222 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:28:27,227 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:28:27,266 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:28:27,268 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:28:27,268 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:28:27,268 [Worker-167: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:28:34,288 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:28:34,288 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:28:34,290 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:28:34,326 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:28:34,329 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:28:34,329 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:28:34,329 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:28:44,075 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:28:44,075 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:28:44,077 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:28:44,101 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:28:44,148 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:28:44,148 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:28:44,148 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:28:50,250 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:28:50,250 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:28:50,252 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:28:50,274 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:28:50,382 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:28:50,383 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:28:50,383 [Worker-165: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:30:23,024 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:30:23,463 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:30:23,468 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:30:23,731 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:30:23,734 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:30:23,735 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:30:23,735 [Worker-169: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:30:58,065 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:30:58,065 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:30:58,067 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:30:58,134 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:30:58,137 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:30:58,137 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:30:58,137 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:31:42,325 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:31:42,326 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:31:42,327 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:31:42,355 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:31:42,358 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:31:42,358 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:31:42,358 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:32:19,125 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:32:19,126 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:32:19,126 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-14 19:32:19,126 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:32:19,153 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:32:19,153 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:32:19,153 [Worker-165: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:39:05,727 [Worker-172: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:39:05,727 [Worker-172: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:39:05,728 [Worker-172: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-14 19:39:05,728 [Worker-172: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:39:05,734 [Worker-172: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:39:05,734 [Worker-172: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:39:05,734 [Worker-172: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:39:56,221 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:39:56,221 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:39:56,223 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:39:56,284 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:39:56,287 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:39:56,287 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:39:56,287 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:41:52,048 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:41:52,048 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:41:52,050 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:41:52,478 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:41:52,480 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:41:52,481 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:41:52,481 [Worker-173: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:42:54,772 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:42:54,772 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:42:54,774 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:42:55,257 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:42:55,260 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:42:55,261 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:42:55,261 [Worker-174: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:43:17,415 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:43:17,415 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:43:17,417 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:43:17,450 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:43:17,454 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:43:17,454 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:43:17,454 [Worker-168: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:43:31,197 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:43:31,197 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:43:31,199 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:43:31,234 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-01-14 19:43:31,238 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:43:31,238 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:43:31,238 [Worker-168: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\workspace\DB_Mark\db_mark\backend\src\test\resources
+2023-01-14 19:49:58,216 [Worker-175: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-01-14 19:49:58,216 [Worker-175: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-14 19:49:58,227 [Worker-175: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2023-01-14 19:49:58,318 [Worker-175: Launching backend - BackendApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource

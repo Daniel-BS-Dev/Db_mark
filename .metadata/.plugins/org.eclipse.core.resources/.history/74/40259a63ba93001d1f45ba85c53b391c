@@ -1,0 +1,2 @@
+INSERT INTO tb_worker (id, name, dayoff, start_work, finished_work, hour_meal, email, password) 
+VALUES ('34344344434434', 'Jose', NOW(), NOW(), NOW(), NOW(), 'jose@gmail', '123456');

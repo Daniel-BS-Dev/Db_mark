@@ -1,0 +1,25 @@
+package com.db_mark.demo.services;
+
+import org.springframework.transaction.annotation.Transactional;
+
+import com.db_mark.demo.dtos.WorkerDTO;
+import com.db_mark.demo.entities.Worker;
+import com.db_mark.demo.repositories.WorkerRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.stereotype.Service;
+
+@Service
+public class WorkerService {
+	
+	@Autowired
+	private WorkerRepository repository;
+	
+	@Transactional(readOnly = true)
+	public Page<WorkerDTO> findAllPage(PageRequest page, String name) {
+		Page<Worker> list = repository.find(page, name);
+		return list.map(x -> new WorkerDTO(x));
+	}
+}

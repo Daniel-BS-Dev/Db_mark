@@ -1,0 +1,5 @@
+package com.db_mark.demo.repositories;
+
+public class WorkerRepository {
+
+}

@@ -1,0 +1,20 @@
+package com.db_mark.demo.repositories;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.stereotype.Repository;
+
+import com.db_mark.demo.entities.Worker;
+
+@Repository
+public interface WorkerRepository extends JpaRepository<Worker, String> {
+	
+	@Query("SELECT obj FROM Worker obj WHERE obj.email = :email")
+	Worker findByEmail(String email);
+	
+	@Query("SELECT DISTINCT obj FROM User obj "
+			+ "WHERE (LOWER(obj.firstName) LIKE LOWER(CONCAT('%',:name,'%')))") 
+	Page<Worker> find(Pageable page, String name);
+}

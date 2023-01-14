@@ -1,0 +1,26 @@
+package com.db_mark.demo.services;
+
+import org.springframework.transaction.annotation.Transactional;
+
+import com.db_mark.demo.dtos.WorkerDTO;
+import com.db_mark.demo.entities.Worker;
+import com.db_mark.demo.repositories.WorkerRepository;
+
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+@Service
+public class StyleHairService {
+	
+	@Autowired
+	private WorkerRepository repository;
+	
+	@Transactional(readOnly = true)
+	public List<WorkerDTO> findAllPage() {
+		List<Worker> list = repository.findAll();
+		return list.stream().map(x -> new WorkerDTO(x)).collect(Collectors.toList());
+	}
+}

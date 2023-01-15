@@ -2,6 +2,7 @@ package com.db_mark.demo.dtos;
 
 import java.io.Serializable;
 import java.sql.Date;
+import java.time.Instant;
 
 import com.db_mark.demo.entities.Client;
 import com.db_mark.demo.entities.Haircut;
@@ -11,13 +12,13 @@ public class HaircutDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
 	private Long id;
-	private Date hour;
+	private Instant hour;
 	private TypeOptionHaircut option;
 	private Double price;
 	private Long hairdresserId;
 	private Client client;
 	
-	public HaircutDTO(Long id, Date hour, TypeOptionHaircut option, Double price, Long hairdresserId, Client client) {
+	public HaircutDTO(Long id, Instant hour, TypeOptionHaircut option, Double price, Long hairdresserId, Client client) {
 		this.id = id;
 		this.hour = hour;
 		this.option = option;
@@ -42,11 +43,11 @@ public class HaircutDTO implements Serializable {
 		this.id = id;
 	}
 
-	public Date getHour() {
+	public Instant getHour() {
 		return hour;
 	}
 
-	public void setHour(Date hour) {
+	public void setHour(Instant hour) {
 		this.hour = hour;
 	}
 

@@ -1,9 +1,10 @@
 package com.db_mark.demo.entities;
 
 import java.io.Serializable;
-import java.sql.Date;
+import java.time.Instant;
 import java.util.Objects;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -24,7 +25,8 @@ public class Haircut implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	private Date hour;
+	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
+	private Instant hour;
 	private TypeOptionHaircut option;
 	private Double price;
 	
@@ -39,7 +41,7 @@ public class Haircut implements Serializable {
 	public Haircut() {
 	}
 
-	public Haircut(Long id, Date hour, TypeOptionHaircut option, Double price, Hairdresser hairdresser, Client client) {
+	public Haircut(Long id, Instant hour, TypeOptionHaircut option, Double price, Hairdresser hairdresser, Client client) {
 		this.id = id;
 		this.hour = hour;
 		this.option = option;
@@ -56,11 +58,11 @@ public class Haircut implements Serializable {
 		this.id = id;
 	}
 
-	public Date getHour() {
+	public Instant getHour() {
 		return hour;
 	}
 
-	public void setHour(Date hour) {
+	public void setHour(Instant hour) {
 		this.hour = hour;
 	}
 

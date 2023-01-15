@@ -1,9 +1,12 @@
 package com.db_mark.demo.dtos;
 
 import java.io.Serializable;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+
+import javax.persistence.Column;
 
 import com.db_mark.demo.entities.Hairdresser;
 import com.db_mark.demo.enums.TypeUser;
@@ -14,16 +17,16 @@ public class HairdresserDTO implements Serializable {
 	private Long id;
 	private String name_user;
 	private TypeUser type_user;
-	private Date dayoff;
-	private Date start_work;
-	private Date finished_work;
-	private Date hour_meal;
+	private Instant dayoff;
+	private Instant start_work;
+	private Instant finished_work;
+	private Instant hour_meal;
 	
 	private List<HaircutDTO> haircuts = new ArrayList<>();
 
 	public HairdresserDTO() {}
 	
-	public HairdresserDTO(Long id, String name_user, TypeUser type_user, Date dayoff, Date start_work, Date finished_work, Date hour_meal) {
+	public HairdresserDTO(Long id, String name_user, TypeUser type_user, Instant dayoff, Instant start_work, Instant finished_work, Instant hour_meal) {
 		this.id = id;
 		this.name_user = name_user;
 		this.type_user = type_user;
@@ -68,35 +71,35 @@ public class HairdresserDTO implements Serializable {
 		this.type_user = type_user;
 	}
 
-	public Date getDayoff() {
+	public Instant getDayoff() {
 		return dayoff;
 	}
 
-	public void setDayoff(Date dayoff) {
+	public void setDayoff(Instant dayoff) {
 		this.dayoff = dayoff;
 	}
 
-	public Date getStart_work() {
+	public Instant getStart_work() {
 		return start_work;
 	}
 
-	public void setStart_work(Date start_work) {
+	public void setStart_work(Instant start_work) {
 		this.start_work = start_work;
 	}
 
-	public Date getFinished_work() {
+	public Instant getFinished_work() {
 		return finished_work;
 	}
 
-	public void setFinished_work(Date finished_work) {
+	public void setFinished_work(Instant finished_work) {
 		this.finished_work = finished_work;
 	}
 
-	public Date getHour_meal() {
+	public Instant getHour_meal() {
 		return hour_meal;
 	}
 
-	public void setHour_meal(Date hour_meal) {
+	public void setHour_meal(Instant hour_meal) {
 		this.hour_meal = hour_meal;
 	}
 

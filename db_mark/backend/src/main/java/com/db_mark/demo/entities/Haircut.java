@@ -2,21 +2,18 @@ package com.db_mark.demo.entities;
 
 import java.io.Serializable;
 import java.sql.Date;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Objects;
 
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
-import javax.persistence.ManyToMany;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
-import com.db_mark.demo.enums.typeOptionHaircut;
+import com.db_mark.demo.enums.TypeOptionHaircut;
 
 @Entity
 @Table(name = "tb_haircut")
@@ -28,21 +25,27 @@ public class Haircut implements Serializable {
 	private Long id;
 	
 	private Date hour;
-	private typeOptionHaircut option;
+	private TypeOptionHaircut option;
 	private Double price;
 	
 	 @ManyToOne
-	 @JoinColumn(name="user_id")
-	 private Hairdresser styleHair;
+	 @JoinColumn(name="hairdresser_id")
+	 private Hairdresser hairdresser;
 	
+	 @OneToOne
+	 @JoinColumn(name="client")
+	 private Client client;
+	 
 	public Haircut() {
 	}
 
-	public Haircut(Long id, Date hour, typeOptionHaircut option, Double price, Hairdresser styleHair) {
+	public Haircut(Long id, Date hour, TypeOptionHaircut option, Double price, Hairdresser hairdresser, Client client) {
 		this.id = id;
 		this.hour = hour;
 		this.option = option;
 		this.price = price;
+		this.hairdresser = hairdresser;
+		this.client = client;
 	}
 
 	public Long getId() {
@@ -61,11 +64,11 @@ public class Haircut implements Serializable {
 		this.hour = hour;
 	}
 
-	public typeOptionHaircut getOption() {
+	public TypeOptionHaircut getOption() {
 		return option;
 	}
 
-	public void setOption(typeOptionHaircut option) {
+	public void setOption(TypeOptionHaircut option) {
 		this.option = option;
 	}
 
@@ -77,12 +80,20 @@ public class Haircut implements Serializable {
 		this.price = price;
 	}
 
-	public Hairdresser getStyleHair() {
-		return styleHair;
+	public Hairdresser getHairdresser() {
+		return hairdresser;
 	}
 
-	public void setStyleHair(Hairdresser styleHair) {
-		this.styleHair = styleHair;
+	public void setHairdresser(Hairdresser hairdresser) {
+		this.hairdresser = hairdresser;
+	}
+	
+	public Client getClient() {
+		return client;
+	}
+
+	public void setClient(Client client) {
+		this.client = client;
 	}
 
 	@Override

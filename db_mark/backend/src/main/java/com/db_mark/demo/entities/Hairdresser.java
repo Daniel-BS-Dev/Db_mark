@@ -13,6 +13,8 @@ import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.db_mark.demo.enums.TypeUser;
+
 @Entity
 @Table(name = "tb_hairdresser")
 public class Hairdresser implements Serializable {
@@ -22,19 +24,21 @@ public class Hairdresser implements Serializable {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name_user;
+	private TypeUser type_user;
 	private Date dayoff;
 	private Date start_work;
 	private Date finished_work;
 	private Date hour_meal;
 	
-	@OneToMany(mappedBy="styleHair")
+	@OneToMany(mappedBy="hairdresser")
 	private List<Haircut> haircuts = new ArrayList<>();
 	
 	public Hairdresser() {}
 	
-	public Hairdresser(Long id, String name_user, Date dayoff, Date start_work, Date finished_work, Date hour_meal) {
+	public Hairdresser(Long id, String name_user, TypeUser type_user, Date dayoff, Date start_work, Date finished_work, Date hour_meal) {
 		this.id = id;
 		this.name_user = name_user;
+		this.type_user = type_user;
 		this.dayoff = dayoff;
 		this.start_work = start_work;
 		this.finished_work = finished_work;
@@ -55,6 +59,14 @@ public class Hairdresser implements Serializable {
 
 	public void setName_user(String name_user) {
 		this.name_user = name_user;
+	}
+
+	public TypeUser getType_user() {
+		return type_user;
+	}
+
+	public void setType_user(TypeUser type_user) {
+		this.type_user = type_user;
 	}
 
 	public Date getDayoff() {

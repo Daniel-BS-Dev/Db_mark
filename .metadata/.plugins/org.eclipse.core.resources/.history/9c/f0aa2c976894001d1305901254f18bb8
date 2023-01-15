@@ -1,0 +1,8 @@
+package com.db_mark.demo.enums;
+
+public enum TypeUser {
+	owerProduct,
+	hairdresser,
+	client
+
+}

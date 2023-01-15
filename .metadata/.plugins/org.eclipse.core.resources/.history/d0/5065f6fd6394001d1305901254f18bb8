@@ -1,0 +1,51 @@
+package com.db_mark.demo.dtos;
+
+import java.io.Serializable;
+
+import com.db_mark.demo.entities.Client;
+import com.db_mark.demo.entities.Haircut;
+
+public class ClientDTO implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	private String name;
+	private String phone;
+	private Haircut haircut;
+	
+   public ClientDTO() {}
+	
+   public ClientDTO(String name, String phone, Haircut haircut) {
+		this.name = name;
+		this.phone = phone;
+		this.haircut = haircut;
+	}
+	
+   public ClientDTO(Client entity) {
+		this.name = entity.getName();
+		this.phone = entity.getPhone();
+	}
+
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getPhone() {
+		return phone;
+	}
+	
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public Haircut getHaircut() {
+		return haircut;
+	}
+
+	public void setHaircut(Haircut haircut) {
+		this.haircut = haircut;
+	}
+}

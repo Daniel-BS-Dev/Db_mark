@@ -1,0 +1,83 @@
+package com.db_mark.demo.dtos;
+
+import java.io.Serializable;
+import java.sql.Date;
+
+import com.db_mark.demo.entities.Haircut;
+import com.db_mark.demo.enums.typeOptionHaircut;
+
+public class HaircutDTO implements Serializable {
+	private static final long serialVersionUID = 1L;
+	
+	private Long id;
+	private Date hour;
+	private typeOptionHaircut option;
+	private Double price;
+	private Long hairdresserId;
+	private Long clientId;
+	
+	public HaircutDTO(Long id, Date hour, typeOptionHaircut option, Double price, Long hairdresserId, Long clientId) {
+		this.id = id;
+		this.hour = hour;
+		this.option = option;
+		this.price = price;
+		this.hairdresserId = hairdresserId;
+	}
+
+	public HaircutDTO(Haircut entity) {
+		id = entity.getId();
+		hour = entity.getHour();
+		option = entity.getOption();
+		price = entity.getPrice();
+		hairdresserId = entity.getHairdresser().getId();
+		clientId = entity.getClient().getId();
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Date getHour() {
+		return hour;
+	}
+
+	public void setHour(Date hour) {
+		this.hour = hour;
+	}
+
+	public typeOptionHaircut getOption() {
+		return option;
+	}
+
+	public void setOption(typeOptionHaircut option) {
+		this.option = option;
+	}
+
+	public Double getPrice() {
+		return price;
+	}
+
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+
+	public Long getHairdresserId() {
+		return hairdresserId;
+	}
+
+	public void setHairdresserId(Long hairdresserId) {
+		this.hairdresserId = hairdresserId;
+	}
+
+	public Long getClientId() {
+		return clientId;
+	}
+
+	public void setClientId(Long clientId) {
+		this.clientId = clientId;
+	}
+}
